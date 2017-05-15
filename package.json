@@ -1,7 +1,7 @@
 {
-  "name": "react-leanjs-boilerplate",
+  "name": "apllo-client-exercise",
   "version": "2.1.0",
-  "description": "ReactJS Academy Boilerplate",
+  "description": "Apollo Client exercise by LeanJS",
   "main": "index.js",
   "scripts": {
     "test": "node scripts/testRunner.js",
@@ -42,14 +42,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactjs-academy/react-leanjs-bolierplate.git"
+    "url": "git+https://github.com/alexlbr/apollo-client-exercise.git"
   },
   "author": "LeanJS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reactjs-academy/react-leanjs-bolierplate/issues"
+    "url": "https://github.com/alexlbr/apollo-client-exercise/issues"
   },
-  "homepage": "https://github.com/reactjs-academy/react-leanjs-bolierplate#readme",
+  "homepage": "https://github.com/alexlbr/apollo-client-exercise#readme",
   "dependencies": {
     "lodash": "^4.17.4",
     "material-ui": "^0.17.4",
