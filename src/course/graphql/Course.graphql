@@ -1,0 +1,7 @@
+#import "./CourseInfo.graphql"
+
+query getCourse($id: ID!){
+  course(id : $id) {
+    ... CourseInfo
+  }
+}

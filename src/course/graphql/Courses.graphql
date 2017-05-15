@@ -1,0 +1,18 @@
+#import "./CourseInfo.graphql"
+
+query Courses($cursor: String) {
+  courses(first: 7, after: $cursor)  {
+    totalCount,
+    pageInfo {
+      hasNextPage,
+      hasPreviousPage,
+      endCursor
+    },
+    edges {
+      node {
+        ...CourseInfo
+      },
+      cursor
+    }
+  }
+}
