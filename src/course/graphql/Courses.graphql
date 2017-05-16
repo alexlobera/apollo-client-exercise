@@ -1,5 +1,5 @@
 query Courses($cursor: String) {
-  courses(first: 7, after: $cursor)  {
+  courses(first: 12, after: $cursor)  {
     totalCount,
     pageInfo {
       hasNextPage,
