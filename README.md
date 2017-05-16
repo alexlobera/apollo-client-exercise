@@ -11,12 +11,12 @@ This repo contains some exercise to help you learn the following:
 
 http://ec2-52-37-127-60.us-west-2.compute.amazonaws.com:8080/graphiql
 
-* Query a list of courses
-* Query a single course by id
-* Query a single course by $id  (id is a variable)
-* How many courses in the system?
-* How many currencies in the system?
-* How many types do we have in the system?
+1. Query a list of courses
+2. Query a single course by id
+3. Query a single course by $id  (id is a variable)
+4. How many courses in the system?
+5. How many currencies in the system?
+6. How many types do we have in the system?
 
 
 ## How to install
