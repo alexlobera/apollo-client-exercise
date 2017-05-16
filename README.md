@@ -11,12 +11,12 @@ This repo contains some exercise to help you learn the following:
 
 http://ec2-52-37-127-60.us-west-2.compute.amazonaws.com:8080/graphiql
 
-1- Query a list of courses
-2- Query a single course by id
-3- Query a single course by $id  (id is a variable)
-4- How many courses in the system?
-5- How many currencies in the system?
-6- How many types do we have in the system?
+* Query a list of courses
+* Query a single course by id
+* Query a single course by $id  (id is a variable)
+* How many courses in the system?
+* How many currencies in the system?
+* How many types do we have in the system?
 
 
 ## How to install
@@ -25,6 +25,17 @@ http://ec2-52-37-127-60.us-west-2.compute.amazonaws.com:8080/graphiql
 - `cd apollo-client-exercise`
 - `npm install` or `yarn install`
 - `npm start`
+
+## Exercise part 2
+
+1. Implement the query in src/voucher/graphql/Vouchers.graphql
+2. Import Vouchers.graphql in src/voucher/components/VoucherList.jsx and connect the component to the query
+3. Implement the query in src/voucher/graphql/Voucher.graphql
+4. Import Voucher.graphql in src/voucher/components/EditVoucher.jsx and connect the component to the query
+5. Implement the mutation in src/voucher/graphql/CreateVoucher.graphql
+6. Import CreateVoucher.graphql in src/voucher/components/NewVoucher.jsx and connect the component to the query
+7. Implement the mutation in src/voucher/graphql/UpdateVoucher.graphql
+8. Import UpdateVoucher.graphql in src/voucher/components/EditVoucher.jsx and connect the component to the query
 
 ## License
 
