@@ -32,9 +32,9 @@ http://ec2-52-37-127-60.us-west-2.compute.amazonaws.com:8080/graphiql
 2. Import Vouchers.graphql in src/voucher/components/VoucherList.jsx and connect the component to the query
 3. Implement the query in src/voucher/graphql/Voucher.graphql
 4. Import Voucher.graphql in src/voucher/components/EditVoucher.jsx and connect the component to the query
-5. Implement the query in src/voucher/graphql/CreateVoucher.graphql
+5. Implement the mutation in src/voucher/graphql/CreateVoucher.graphql
 6. Import CreateVoucher.graphql in src/voucher/components/NewVoucher.jsx and connect the component to the query
-7. Implement the query in src/voucher/graphql/UpdateVoucher.graphql
+7. Implement the mutation in src/voucher/graphql/UpdateVoucher.graphql
 8. Import UpdateVoucher.graphql in src/voucher/components/EditVoucher.jsx and connect the component to the query
 
 ## License
